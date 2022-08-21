@@ -1,0 +1,25 @@
+{
+  "name": "@monorepo/root",
+  "version": "1.0.0",
+  "packageManager": "pnpm@7.9.3",
+  "engineStrict": true,
+  "engines": {
+    "pnpm": "7.9.3",
+    "node": ">=16"
+  },
+  "description": "",
+  "scripts": {
+    "run-example": "pnpm --filter=my-package-example start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebaplaza/pnpm-issue-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebaplaza/pnpm-issue-example/issues"
+  },
+  "homepage": "https://github.com/sebaplaza/pnpm-issue-example#readme"
+}

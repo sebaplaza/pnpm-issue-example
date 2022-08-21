@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/my-package-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb-memory-server": "^8.8.0",
+    "ts-node": "^10.9.1"
+  }
+}
